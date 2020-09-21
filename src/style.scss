@@ -1,4 +1,30 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; // make font size 10px
+}
+
+h1{
+    font-size: 5rem; //px, rem, 1 rem = 10px, em is relative to parent container, vw= viewport width, vh= viewport height
+}
+
 body{
     background-color: blueviolet;
     height: 95vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 90vh;
+    margin: 3rem auto; // a trick to center something
+    align-items: center;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.form-text{
+    display: block;// takes up new line, kinda like page break
 }
