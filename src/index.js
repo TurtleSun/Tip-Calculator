@@ -10,7 +10,7 @@ tipForm.addEventListener('submit', function(e){
     //concept called scope to function, function scoped
     const tipPercentage = Number(document.querySelector("#tip-amount").value);
     const tipAmount = document.querySelector("#final-tip");
-    tipAmount.innerHTML = Number(billAmount + (billAmount * tipPercentage).value);
+    tipAmount.innerHTML = billAmount + (billAmount * tipPercentage);
     //`${tipPercent}`
     //insert math and 
 });
